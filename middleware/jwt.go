@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo"
+	jwt "gopkg.in/dgrijalva/jwt-go.v3"
 )
 
 type (
